@@ -1,3 +1,3 @@
-################## Build node js ################### 
+echo "################## Build node js ###################"
 cd functions
 yarn build

@@ -6,9 +6,11 @@
             "@babel/preset-env",
             {
                 "targets": {
-                    "node": "current"
+                    "node": "6.10",
+                    "esmodules": true
                 }
             }
         ]
-    ]
+    ],
+    "plugins": ["promise", "@babel/plugin-transform-classes"]
 }

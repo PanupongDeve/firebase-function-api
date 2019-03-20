@@ -1,9 +1,8 @@
 import express from 'express';
-
+import handlController from './controller';
 const app = express();
 
-app.get('/', async (req, res) => {
-    res.send('555555555555')
-});
+
+handlController(app);
 
 module.exports = app;

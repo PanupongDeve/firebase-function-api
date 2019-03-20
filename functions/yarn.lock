@@ -1319,6 +1319,11 @@ babel-loader@^8.0.5:
     mkdirp "^0.5.1"
     util.promisify "^1.0.0"
 
+babel-plugin-promise@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-promise/-/babel-plugin-promise-1.0.3.tgz#8221198e948d5862cf7343f7fd3d9f5a4135a926"
+  integrity sha1-giEZjpSNWGLPc0P3/T2fWkE1qSY=
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
